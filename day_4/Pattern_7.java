@@ -2,7 +2,7 @@ package com.quest.day_4;
 
 import java.util.Scanner;
 
-public class Program_7 {
+public class Pattern_7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
