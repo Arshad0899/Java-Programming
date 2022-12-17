@@ -6,8 +6,7 @@ public class ReverseNumberUsingMethods {
 	
 	static void reverse(int num) {
 		
-		int temp = num, length = 0, n = num; 
-		long rev = 0;
+		int temp = num, length = 0, n = num, rev = 0;
 		
 		// Getting length of number
 		while(temp != 0) {
@@ -19,7 +18,7 @@ public class ReverseNumberUsingMethods {
 		
 		// Reversing the given number
 		for(int i = 0; i < length; i++) {
-			long digit = n % 10;
+			int digit = n % 10;
 			
 			// 1234 => 4000 + 200 + 30 + 4 => 4321
 			rev = rev + (digit * multiplier);
