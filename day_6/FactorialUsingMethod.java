@@ -10,6 +10,7 @@ public class FactorialUsingMethod {
 		
 		System.out.println("Enter the number: ");
 		int num = sc.nextInt();
+		sc.close();
 		
 		int factor = factorial(num);
 		System.out.println("The factor of " + num + "! is " + factor);
